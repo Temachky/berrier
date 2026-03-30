@@ -16,7 +16,7 @@ public final class BarrierLegacy extends JavaPlugin implements Listener {
             getServer().getLogger().info("мир не найден");
         }
 
-        x = getServer().getScheduler().runTaskTimer(this, new Barrier(), 21600 * 20, 21600 * 20);
+        x = getServer().getScheduler().runTaskTimer(this, new Barrier(), 86400 * 20, 86400 * 20);
     }
 
     @Override
